@@ -1,0 +1,131 @@
+ /* .jumbotron {
+    background-image: url("./assets/pexels_open laptop_mobilePhone_LensCover_Apples.jpg");
+    background-size: cover;
+}
+         */
+/* height:100%;  */
+
+
+
+/* z-index */
+/* position:relative,absolute... */
+/* w3 schools */
+/* Msdn  */
+/* body {
+    background-image: url("./assets/pexels_open laptop_mobilePhone_LensCover_Apples.jpg");
+    background-size: 75%;
+    width: cover; 
+    background-repeat: no-repeat;
+}    
+*/
+
+
+/* background: rgb(144,144,244);
+background: linear-gradient(180deg, rgba(144,144,244,1) 0%, rgba(9,9,121,0.6307116596638656) 51%, rgba(0,212,255,0.11810661764705888) 100%);   
+*/
+/* 
+element.style {
+}
+body.friendly {
+    background: -webkit-linear-gradient(-45deg, #8363a1 0%, #74a8c3 100%);
+    background: linear-gradient(135deg, #8363a1 0%, #74a8c3 100%);
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+body.friendly {
+}
+ */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #C8C1C1;
+background-image: linear-gradient(315deg, #C8C1C1 0%, #4A0404 74%);
+    /* position: relative; */
+}
+
+/* Need to adjust rotate */
+#introduction {
+    position: relative;
+    color: white;
+    padding-left: 25%;
+    padding-bottom: 20%;
+    /* margin-top: 15%;
+    margin-left: 30%; */
+}
+/* nav */
+/* a tag not working  color: red does not work*/
+a {
+    color:red;
+}
+
+.navbar-brand {
+    font-size: 1rem;
+    font-weight: 400;
+    /* position:fixed; */
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    color:white !important;
+    /* position: fixed; */
+}
+
+
+
+#home {
+    height: 100%;
+    width: 100%;
+    opacity: 80%;
+    background-image: url("./assets/pexels_open laptop_mobilePhone_LensCover_Apple.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    padding-top: 15%;
+    padding-bottom:35%;
+}
+
+.icons {
+    border: 3px solid #f5f5f5 light;
+}
+/* .container-fluid {
+    background-image: url("./assets/pexels_open laptop_mobilePhone_LensCover_Apples.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+     */
+.text-box {
+    margin: 0;
+}
+
+#about {
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+#projects {
+    /* background-color: lightblue; */
+    height: 100%;
+    width: 100%;
+    padding: 30%;
+}
+
+#resume {
+
+}
+
+#contact{
+
+}
+
+#footer {
+height: 5%;
+width: 100%;
+padding: 2%;
+margin: 1.5%;
+}
